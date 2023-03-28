@@ -1,0 +1,10 @@
+Random seed: 5038877366521909944
+---------------- Starting Your Algo --------------------
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/algo_strategy.py", line 434, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/gamelib/algocore.py", line 59, in start
+    game_state_string = get_command()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/gamelib/util.py", line 12, in get_command
+    ret = sys.stdin.readline()
+KeyboardInterrupt

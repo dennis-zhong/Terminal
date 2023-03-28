@@ -1,0 +1,13 @@
+Random seed: 7960080876550381076
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 0 of your custom algo strategy
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/algo_strategy.py", line 240, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/gamelib/algocore.py", line 59, in start
+    game_state_string = get_command()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/gamelib/util.py", line 12, in get_command
+    ret = sys.stdin.readline()
+KeyboardInterrupt

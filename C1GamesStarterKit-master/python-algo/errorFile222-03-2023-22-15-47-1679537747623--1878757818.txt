@@ -1,0 +1,33 @@
+Random seed: 6740033007812627574
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 0 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 1 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 2 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 3 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 4 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 5 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 6 of your custom algo strategy
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/algo_strategy.py", line 240, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/gamelib/algocore.py", line 74, in start
+    self.on_turn(game_state_string)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/algo_strategy.py", line 60, in on_turn
+    self.starter_strategy(game_state)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/algo_strategy.py", line 88, in starter_strategy
+    if self.detect_enemy_unit(game_state, unit_type=None, valid_x=None, valid_y=[14, 15]) > 10:
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/algo_strategy.py", line 202, in detect_enemy_unit
+    for location in game_state.game_map:
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/gamelib/game_map.py", line 62, in __next__
+    while not self.in_arena_bounds(new_location) and not location == [14,27]:
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/gamelib/game_map.py", line 92, in in_arena_bounds
+    half_board = self.HALF_ARENA
+KeyboardInterrupt

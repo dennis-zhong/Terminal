@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/algo_strategy.py", line 9, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.8/site-packages/numpy/__init__.py", line 157, in <module>
+    from . import ma
+  File "/usr/local/lib/python3.8/site-packages/numpy/ma/__init__.py", line 42, in <module>
+    from . import core
+  File "/usr/local/lib/python3.8/site-packages/numpy/ma/core.py", line 2455, in <module>
+    long_flx=textwrap.dedent("""\
+  File "/usr/local/Cellar/python@3.8/3.8.12/Frameworks/Python.framework/Versions/3.8/lib/python3.8/textwrap.py", line 461, in dedent
+    text = re.sub(r'(?m)^' + margin, '', text)
+  File "/usr/local/Cellar/python@3.8/3.8.12/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+KeyboardInterrupt

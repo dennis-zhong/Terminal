@@ -1,0 +1,43 @@
+Random seed: 5076021448087535917
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+Performing turn 1 of your custom algo strategy
+Performing turn 2 of your custom algo strategy
+Performing turn 3 of your custom algo strategy
+Performing turn 4 of your custom algo strategy
+Performing turn 5 of your custom algo strategy
+Performing turn 6 of your custom algo strategy
+Got scored on at: [20, 6]
+All locations: [[20, 6]]
+Performing turn 7 of your custom algo strategy
+Performing turn 8 of your custom algo strategy
+Performing turn 9 of your custom algo strategy
+Performing turn 10 of your custom algo strategy
+Performing turn 11 of your custom algo strategy
+Performing turn 12 of your custom algo strategy
+Performing turn 13 of your custom algo strategy
+Performing turn 14 of your custom algo strategy
+Performing turn 15 of your custom algo strategy
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 481, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/algocore.py", line 74, in start
+    self.on_turn(game_state_string)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 133, in on_turn
+    self.starter_strategy(game_state)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 221, in starter_strategy
+    self.deploy_demo(game_state, currAtt, 1)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 251, in deploy_demo
+    return game_state.attempt_spawn(DEMOLISHER, loc, q)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 379, in attempt_spawn
+    if self.can_spawn(unit_type, location, 1):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 334, in can_spawn
+    blocked = self.contains_stationary_unit(location) or (stationary and len(self.game_map[location[0],location[1]]) > 0)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 515, in contains_stationary_unit
+    for unit in self.game_map[x,y]:
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_map.py", line 42, in __getitem__
+    if len(location) == 2 and self.in_arena_bounds(location):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_map.py", line 102, in in_arena_bounds
+    bottom_half_check = (y >= self.HALF_ARENA and x >= startx and x <= endx)
+KeyboardInterrupt

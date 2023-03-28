@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/algo_strategy.py", line 9, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.8/site-packages/numpy/__init__.py", line 368, in <module>
+    _mac_os_check()
+  File "/usr/local/lib/python3.8/site-packages/numpy/__init__.py", line 361, in _mac_os_check
+    _ = polyfit(x, y, 2, cov=True)
+  File "<__array_function__ internals>", line 180, in polyfit
+  File "/usr/local/lib/python3.8/site-packages/numpy/lib/polynomial.py", line 646, in polyfit
+    rcond = len(x)*finfo(x.dtype).eps
+  File "/usr/local/lib/python3.8/site-packages/numpy/core/getlimits.py", line 485, in __new__
+    obj = object.__new__(cls)._init(dtype)
+  File "/usr/local/lib/python3.8/site-packages/numpy/core/getlimits.py", line 499, in _init
+    setattr(self, word, getattr(machar, word).flat[0])
+KeyboardInterrupt

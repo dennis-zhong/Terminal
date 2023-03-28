@@ -1,0 +1,791 @@
+Random seed: 8633355661126117768
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+Got scored on at: [16, 2]
+All locations: [[16, 2]]
+Got scored on at: [19, 5]
+All locations: [[16, 2], [19, 5]]
+Got scored on at: [23, 9]
+All locations: [[16, 2], [19, 5], [23, 9]]
+Performing turn 1 of your custom algo strategy
+0
+Got scored on at: [16, 2]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2]]
+Got scored on at: [19, 5]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5]]
+Got scored on at: [3, 10]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10]]
+Performing turn 2 of your custom algo strategy
+0
+Got scored on at: [17, 3]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3]]
+Got scored on at: [6, 7]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7]]
+Got scored on at: [27, 13]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7], [27, 13]]
+Performing turn 3 of your custom algo strategy
+0
+0
+Got scored on at: [17, 3]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7], [27, 13], [17, 3]]
+Got scored on at: [5, 8]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7], [27, 13], [17, 3], [5, 8]]
+Got scored on at: [2, 11]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7], [27, 13], [17, 3], [5, 8], [2, 11]]
+Performing turn 4 of your custom algo strategy
+0
+4
+Got scored on at: [17, 3]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7], [27, 13], [17, 3], [5, 8], [2, 11], [17, 3]]
+Got scored on at: [27, 13]
+All locations: [[16, 2], [19, 5], [23, 9], [16, 2], [19, 5], [3, 10], [17, 3], [6, 7], [27, 13], [17, 3], [5, 8], [2, 11], [17, 3], [27, 13]]
+Performing turn 5 of your custom algo strategy
+0
+0
+0
+0
+Performing turn 6 of your custom algo strategy
+0
+Performing turn 7 of your custom algo strategy
+0
+2
+Performing turn 8 of your custom algo strategy
+0
+Performing turn 9 of your custom algo strategy
+0
+0
+Performing turn 10 of your custom algo strategy
+0
+3
+0
+Performing turn 11 of your custom algo strategy
+0
+0
+0
+0
+Performing turn 12 of your custom algo strategy
+0
+0
+0
+0
+4
+Performing turn 13 of your custom algo strategy
+4
+4
+4
+4
+4
+4
+Performing turn 14 of your custom algo strategy
+0
+4
+4
+0
+4
+4
+0
+Performing turn 15 of your custom algo strategy
+4
+4
+4
+4
+4
+4
+4
+Performing turn 16 of your custom algo strategy
+4
+3
+4
+4
+0
+4
+4
+2
+Performing turn 17 of your custom algo strategy
+0
+4
+0
+0
+2
+0
+0
+0
+0
+Performing turn 18 of your custom algo strategy
+3
+0
+0
+0
+0
+0
+0
+2
+2
+0
+Performing turn 19 of your custom algo strategy
+0
+0
+0
+3
+0
+0
+0
+0
+2
+0
+Performing turn 20 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Performing turn 21 of your custom algo strategy
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+2
+Performing turn 22 of your custom algo strategy
+0
+0
+0
+0
+4
+0
+0
+4
+0
+0
+4
+0
+0
+0
+Performing turn 23 of your custom algo strategy
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+1
+1
+0
+0
+1
+Performing turn 24 of your custom algo strategy
+0
+0
+0
+0
+2
+1
+0
+1
+0
+0
+0
+Performing turn 25 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+4
+Performing turn 26 of your custom algo strategy
+2
+0
+0
+0
+0
+0
+2
+0
+4
+0
+Performing turn 27 of your custom algo strategy
+0
+0
+0
+0
+0
+1
+2
+0
+0
+1
+0
+Performing turn 28 of your custom algo strategy
+0
+0
+3
+0
+0
+0
+3
+0
+4
+0
+Performing turn 29 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+Performing turn 30 of your custom algo strategy
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+Performing turn 31 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Performing turn 32 of your custom algo strategy
+0
+4
+2
+0
+0
+0
+2
+0
+0
+2
+0
+0
+0
+Performing turn 33 of your custom algo strategy
+2
+0
+0
+4
+0
+2
+2
+0
+0
+0
+0
+1
+0
+4
+Performing turn 34 of your custom algo strategy
+0
+0
+0
+2
+0
+3
+0
+0
+0
+0
+0
+0
+1
+0
+0
+Performing turn 35 of your custom algo strategy
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+4
+0
+0
+Performing turn 36 of your custom algo strategy
+0
+2
+0
+0
+2
+0
+4
+0
+0
+0
+3
+0
+0
+3
+Performing turn 37 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Performing turn 38 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+4
+1
+0
+2
+0
+4
+0
+2
+3
+0
+Performing turn 39 of your custom algo strategy
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+2
+4
+Performing turn 40 of your custom algo strategy
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+1
+0
+0
+Performing turn 41 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+3
+0
+0
+0
+Performing turn 42 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+Performing turn 43 of your custom algo strategy
+4
+0
+0
+0
+2
+2
+0
+0
+0
+0
+0
+2
+1
+0
+0
+0
+0
+0
+Performing turn 44 of your custom algo strategy
+0
+0
+0
+0
+4
+0
+0
+4
+0
+0
+3
+0
+4
+0
+4
+3
+0
+2
+0
+Performing turn 45 of your custom algo strategy
+4
+4
+2
+4
+3
+4
+4
+4
+4
+4
+3
+4
+4
+4
+2
+4
+4
+4
+3
+4
+Performing turn 46 of your custom algo strategy
+0
+2
+0
+3
+2
+3
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+Performing turn 47 of your custom algo strategy
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+3
+0
+0
+2
+0
+0
+Performing turn 48 of your custom algo strategy
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+4
+4
+0
+0
+0
+0
+4
+0
+0
+0
+Performing turn 49 of your custom algo strategy
+0
+0
+0
+3
+0
+0
+0
+4
+0
+3
+0
+0
+0
+0
+0
+1
+3
+0
+0
+4
+2
+3
+0
+0
+Performing turn 50 of your custom algo strategy
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+1
+0
+0
+0
+0
+Performing turn 51 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+4
+1
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Performing turn 52 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+2
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+2
+0
+1
+0
+0
+0
+0
+Performing turn 53 of your custom algo strategy
+0
+0
+1
+0
+0
+2
+4
+4
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+Performing turn 54 of your custom algo strategy
+0
+0
+4
+4
+0
+0
+0
+0
+0
+3
+0
+0
+2
+0
+1
+0
+2
+0
+0
+0
+0
+3
+0
+0
+0
+0
+Performing turn 55 of your custom algo strategy
+0
+0
+0
+0
+0
+0
+0
+1
+0
+4
+0
+0
+0
+2
+0
+0
+0
+4
+0
+0
+0
+0
+3
+0
+0
+0
+0
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/algo_strategy.py", line 434, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/gamelib/algocore.py", line 59, in start
+    game_state_string = get_command()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/gamelib/util.py", line 12, in get_command
+    ret = sys.stdin.readline()
+KeyboardInterrupt

@@ -1,0 +1,25 @@
+Random seed: 5936602803603053776
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+Performing turn 1 of your custom algo strategy
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 481, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/algocore.py", line 74, in start
+    self.on_turn(game_state_string)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 133, in on_turn
+    self.starter_strategy(game_state)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 222, in starter_strategy
+    self.deploy_scout(game_state, currAtt, 2)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 254, in deploy_scout
+    return game_state.attempt_spawn(SCOUT, loc, q)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 379, in attempt_spawn
+    if self.can_spawn(unit_type, location, 1):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 336, in can_spawn
+    on_edge = location in (self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT) + self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT))
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_map.py", line 120, in get_edge_locations
+    edges = self.get_edges()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_map.py", line 134, in get_edges
+    top_right.append([int(x), int(y)])
+KeyboardInterrupt

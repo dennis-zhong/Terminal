@@ -1,0 +1,21 @@
+Random seed: 6586413762597586773
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+Got scored on at: [22, 8]
+All locations: [[22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8]]
+Got scored on at: [8, 5]
+All locations: [[22, 8], [22, 8], [8, 5]]
+Performing turn 1 of your custom algo strategy
+Got scored on at: [25, 11]
+All locations: [[22, 8], [22, 8], [8, 5], [25, 11]]
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/algo_strategy.py", line 414, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/gamelib/algocore.py", line 59, in start
+    game_state_string = get_command()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/selfalgo/gamelib/util.py", line 12, in get_command
+    ret = sys.stdin.readline()
+KeyboardInterrupt

@@ -1,0 +1,67 @@
+Random seed: 3570689268840720275
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+Performing turn 1 of your custom algo strategy
+Got scored on at: [10, 3]
+All locations: [[10, 3]]
+Performing turn 2 of your custom algo strategy
+Performing turn 3 of your custom algo strategy
+Performing turn 4 of your custom algo strategy
+Performing turn 5 of your custom algo strategy
+Performing turn 6 of your custom algo strategy
+Performing turn 7 of your custom algo strategy
+Performing turn 8 of your custom algo strategy
+Performing turn 9 of your custom algo strategy
+Performing turn 10 of your custom algo strategy
+Performing turn 11 of your custom algo strategy
+Performing turn 12 of your custom algo strategy
+Performing turn 13 of your custom algo strategy
+Performing turn 14 of your custom algo strategy
+Performing turn 15 of your custom algo strategy
+Performing turn 16 of your custom algo strategy
+Performing turn 17 of your custom algo strategy
+Performing turn 18 of your custom algo strategy
+Performing turn 19 of your custom algo strategy
+Performing turn 20 of your custom algo strategy
+Performing turn 21 of your custom algo strategy
+Performing turn 22 of your custom algo strategy
+Performing turn 23 of your custom algo strategy
+Performing turn 24 of your custom algo strategy
+Performing turn 25 of your custom algo strategy
+Performing turn 26 of your custom algo strategy
+Performing turn 27 of your custom algo strategy
+Performing turn 28 of your custom algo strategy
+Performing turn 29 of your custom algo strategy
+Got scored on at: [26, 12]
+All locations: [[10, 3], [26, 12]]
+Got scored on at: [26, 12]
+All locations: [[10, 3], [26, 12], [26, 12]]
+Got scored on at: [26, 12]
+All locations: [[10, 3], [26, 12], [26, 12], [26, 12]]
+Performing turn 30 of your custom algo strategy
+Performing turn 31 of your custom algo strategy
+Performing turn 32 of your custom algo strategy
+Performing turn 33 of your custom algo strategy
+Performing turn 34 of your custom algo strategy
+Performing turn 35 of your custom algo strategy
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 483, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/algocore.py", line 74, in start
+    self.on_turn(game_state_string)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 133, in on_turn
+    self.starter_strategy(game_state)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 223, in starter_strategy
+    self.deploy_demo(game_state, currAtt, 1)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/algo_strategy.py", line 253, in deploy_demo
+    return game_state.attempt_spawn(DEMOLISHER, loc, q)
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 379, in attempt_spawn
+    if self.can_spawn(unit_type, location, 1):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_state.py", line 336, in can_spawn
+    on_edge = location in (self.game_map.get_edge_locations(self.game_map.BOTTOM_LEFT) + self.game_map.get_edge_locations(self.game_map.BOTTOM_RIGHT))
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_map.py", line 120, in get_edge_locations
+    edges = self.get_edges()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/manalgo/gamelib/game_map.py", line 139, in get_edges
+    top_left.append([int(x), int(y)])
+KeyboardInterrupt

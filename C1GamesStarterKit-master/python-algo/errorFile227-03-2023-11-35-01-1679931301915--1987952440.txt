@@ -1,0 +1,67 @@
+Random seed: 5905518318373546560
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 0 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 1 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 2 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 3 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 4 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 5 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 6 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 7 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 8 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 9 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 10 of your custom algo strategy
+Got scored on at: [22, 8]
+All locations: [[22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Got scored on at: [22, 8]
+All locations: [[22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8], [22, 8]]
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 11 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 12 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 13 of your custom algo strategy
+Could not spawn EI at location [24, 10]. Not enough resources.
+Performing turn 14 of your custom algo strategy
+Traceback (most recent call last):
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/algo_strategy.py", line 240, in <module>
+    algo.start()
+  File "/Users/denniszhong/Desktop/CodingTime/Terminal/C1GamesStarterKit-master/python-algo/gamelib/algocore.py", line 67, in start
+    state = json.loads(game_state_string)
+  File "/usr/local/Cellar/python@3.8/3.8.12/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.8/3.8.12/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.8/3.8.12/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+KeyboardInterrupt
